@@ -1,0 +1,67 @@
+@mixin responsFontSize {
+  @media (max-width: map-get($breack-point, lg)) {
+    font-size: calc(0.3em + 1vw);
+  }
+  @media (max-width: map-get($breack-point, md)) {
+    font-size: calc(0.4em + 1vw);
+  }
+  @media (max-width: map-get($breack-point, sm)) {
+    font-size: calc(0.6em + 1vw);
+  }
+  @media (max-width: 350px) {
+    font-size: calc(0.5em + 1vw);
+  }
+}
+
+@media (max-width: map-get($breack-point, xs)) {
+  :root {
+    font-size: calc(0.5em + 1vw);
+  }
+  .form {
+    padding: 10px 10px;
+  }
+  .field-wrapper {
+    &:not(:first-child) {
+      margin-left: 0.2em;
+    }
+  }
+}
+
+@mixin responsForm {
+  @media (max-width: map-get($breack-point, xs)) {
+    padding: 10px 10px;
+  }
+}
+@mixin responsLastName {
+  @media (max-width: map-get($breack-point, mobile)) {
+    margin: 0em;
+    flex-basis: 100%;
+  }
+}
+@mixin responsLastNameField {
+  @media (max-width: map-get($breack-point, mobile)) {
+    width: 100%;
+  }
+}
+@mixin responsStage {
+  @media (max-width: map-get($breack-point, mobile)) {
+    margin: 1.5rem auto;
+  }
+}
+@mixin responsRadio {
+  @media (max-width: map-get($breack-point, mobile)) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@mixin responsLegendRadio() {
+  @media (max-width: 525px) {
+    margin-bottom: 0em;
+    align-self: center;
+  }
+}
+@mixin responsRow {
+  @media (max-width: map-get($breack-point, mobile)) {
+    flex-direction: column;
+  }
+}
