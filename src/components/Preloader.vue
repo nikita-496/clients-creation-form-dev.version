@@ -34,7 +34,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 3;
+    z-index: 1000;
   }
   $b-height: 1.15em;
   $el-size: 3vh;
