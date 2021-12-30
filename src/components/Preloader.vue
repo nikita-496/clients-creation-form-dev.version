@@ -2,7 +2,7 @@
 <template>
   <div class="modal">
     <div class="h1wrap">
-      <p>Идет отправка данных, пожалйста, подождите ...</p>
+      <p>Идет отправка данных, пожалуйста, подождите ...</p>
     </div>
 
     <div class="DNA_cont">

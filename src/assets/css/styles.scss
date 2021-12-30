@@ -6,6 +6,10 @@
   box-sizing: border-box;
   @include responsFontSize;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
 }
