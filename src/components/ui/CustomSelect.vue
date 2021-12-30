@@ -180,7 +180,7 @@
   .is-error {
     border: 1px solid $clr-error;
     border-radius: 5px;
-    padding: 0.5em;
+    padding: 0.8em;
     font-size: 0.95rem;
     cursor: pointer;
     &:hover {

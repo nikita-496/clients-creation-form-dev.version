@@ -66,7 +66,7 @@
   @import "../scss/_mixins.scss";
   @import "../scss/media.scss";
   .wrapper-document {
-    @include wrapperStyle(0.4em);
+    @include wrapperStyle(0em);
     .row-fist {
       display: flex;
       flex-direction: column;
