@@ -269,8 +269,8 @@
     line-height: 12px;
     color: red;
     @media (max-width: map-get($breack-point, mobile)) {
-      top: 3.5em;
-      font-size: 0.75rem;
+      top: 3.3em;
+      font-size: 0.8rem;
     }
   }
 

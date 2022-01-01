@@ -74,7 +74,7 @@
 
         //Автоматическое добавление спец.сиволов - "(", ")", "-" при достижении
         //определенной длинны символов
-        //иначе продолжать выводить цифра в поле
+        //иначе продолжать выводить цифры в поле
         switch (currLen) {
           case 1:
             return (this.phone = convertToPhoneFormat(this.phone, symbolPhone.openBracket));
@@ -165,7 +165,7 @@
     color: red;
     @media (max-width: map-get($breack-point, mobile)) {
       top: 3.5em;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
     }
   }
   .counter {
